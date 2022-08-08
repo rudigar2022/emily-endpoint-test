@@ -8,7 +8,9 @@ name: Docker-Alpha
 on:  
   push:
     branches:       
-        - 'ft*'  
+        - 'ft*'
+        - 'bf*'
+        - 'bc*'
 env:
   # Use docker.io for Docker Hub if empty
   REGISTRY: ghcr.io

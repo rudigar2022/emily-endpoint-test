@@ -5,11 +5,10 @@ name: Docker
 # separate terms of service, privacy policy, and support
 # documentation.
 
-trigger:  
+on:  
   push:
-    branches:
-      include: 
-        - ft*  
+    branches:       
+        - 'ft*'  
 env:
   # Use docker.io for Docker Hub if empty
   REGISTRY: ghcr.io

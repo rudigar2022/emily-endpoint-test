@@ -1,0 +1,28 @@
+### Validate Credentials On Identity API
+POST http://localhost:9091/api/account/verifycredentials HTTP/1.1
+content-type: application/json
+
+{
+    "login": "guest@arium",
+    "password": "123",
+    "company": "arium"
+}
+
+### Validate Credentials On Identity API House
+POST http://tomapedidos.mellega.com:9080/api/account/verifycredentials HTTP/1.1
+content-type: application/json
+
+{
+    "login": "tpsm001",
+    "password": "12345",
+    "company": "arium"
+}
+
+### Validate Credentials On NodeJS Emilia Endpoint
+POST http://192.168.0.28:9090/emilia/security/login HTTP/1.1
+content-type: application/json
+
+{
+    "login": "guest@arium",
+    "password": "123"
+}

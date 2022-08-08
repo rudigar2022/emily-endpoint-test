@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="1050" height="500" 
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <title>Example quad01 - quadratic Bézier commands in path data</title>
+  <desc>Picture showing a "Q" a "T" command,
+        along with annotations showing the control points
+        and end points</desc>
+
+  <path d="M-80 300 C300 10 600 700 1100 0 C1090 920 1150 900 920 700 H0 C-100 650 -80 725 -80 378Z"
+      fill="#30bec8"
+      stroke="#ffa610"
+      stroke-width="5"  />
+</svg>

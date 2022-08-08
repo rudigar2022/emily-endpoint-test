@@ -1,0 +1,20 @@
+export class BranchOffice {
+  id: number = null;
+  companyName: string = null;
+  branchName: string = null;
+  addressLine1: string = null;
+  addressLine2: string = null;
+  addressLine3: string = null;
+  addressLine4: string = null;
+  city: string = null;
+  department: string = null;
+  stablishmentCodeFel: number = null;
+  taxId: string = null;
+  telephone: string = null;
+  email: string = null;
+  felCertifierName: string = null;
+  felCertifierTaxId: string = null;
+  postalCode: string = null;
+  nrc: string = null;
+  businessLine: string = null;
+}

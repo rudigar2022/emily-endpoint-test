@@ -1,0 +1,8 @@
+{
+  "extends": "./configs/tsconfig.json",
+  "compilerOptions": {
+    "allowJs": false,
+    "resolveJsonModule": true,
+    "watch": true
+  }
+}

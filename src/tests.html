@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+
+    <script>
+      var socket = io('http://localhost:9090');
+      socket.on('connect', function(data) {
+        var status = document.getElementById('socketStatus');
+        status.innerText = 'Connected';
+      });
+
+      socket.on('disconnect', function() {
+        var status = document.getElementById('socketStatus');
+        status.innerText = 'Disconnected';
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Socket Status: <span id="socketStatus"></span></h1>
+  </body>
+</html>

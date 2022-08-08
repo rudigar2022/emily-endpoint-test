@@ -1,0 +1,51 @@
+{
+  "_documentation": {
+    "server": {
+      "version": "The Server Version, when change then update the file 'index.html' in folder 'public' to reflect the change in Version TAG",
+      "portToListen": "TCP Port used for listen on server",
+      "verboseDatabaseRequest": "Used for indicate if a Database Request log info through console",
+      "useCluster": "Indicates if this server must use a CLUSTER of instances"
+    },
+    "winstonLogger": "Configurations for logger service",
+    "database ": {
+      "databaseSchema": "The DB Schema, must be without the brackets '[]'",
+      "options": {
+        "Encrypt": "If you are on Windows Azure, please use the value 'true' on this property in database > options > encript",
+        "InstanceName": "If the connection will be on a named instance of SQL Server, please add the property 'instanceName': 'SQL_SERVER_INSTANCE_NAME' to 'options' node of database section."
+      }
+    }
+  },
+  "server": {
+    "version": "2.0.4",
+    "portToListen": 9090,
+    "verboseDatabaseRequest": true,
+    "useCluster": false,
+    "endpoint": "/emily",
+    "useSqlServiceBroker": true,
+    "InventoryTransferBrokerServiceIsActive": false,
+    "ZeroBalanceBrokerServiceIsActive": true
+  },
+  "winstonLogger": {
+    "environment": "development",
+    "errorsFileName": "EmilyServerErrors",
+    "infoFileName": "EmilyServerCombined"
+  },
+  "database": {
+    "driverConfiguration": {
+      "user": "Emilia",
+      "password": "3m1l1@2020",
+      "server": "Z15-DES-EMD-16",
+      "port": 1433,
+      "database": "Emilia_CU",
+      "connectionTimeout": 15000,
+      "requestTimeout": 15000,
+      "options": {
+        "encrypt": false
+      },
+      "pool": {
+        "min": 0
+      }
+    },
+    "databaseSchema": "Emilia"
+  }
+}

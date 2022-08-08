@@ -1,0 +1,1 @@
+{"version":3,"file":"route-liquidation.model.js","sourceRoot":"","sources":["route-liquidation.model.ts"],"names":[],"mappings":";;AAEA,MAAa,gBAAgB;IAA7B;QACE,eAAU,GAAW,IAAI,CAAC;QAC1B,eAAU,GAAW,IAAI,CAAC;QAC1B,mBAAc,GAAW,IAAI,CAAC;QAC9B,kBAAa,GAAW,IAAI,CAAC;QAC7B,iBAAY,GAAW,IAAI,CAAC;QAC5B,kBAAa,GAAW,IAAI,CAAC;QAE7B,2BAAsB,GAAmB,EAAE,CAAC;IAC9C,CAAC;CAAA;AATD,4CASC"}

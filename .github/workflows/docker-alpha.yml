@@ -8,8 +8,8 @@ name: Docker
 trigger:  
   push:
     branches:
-    include: 
-    - ft*  
+      include: 
+        - ft*  
 env:
   # Use docker.io for Docker Hub if empty
   REGISTRY: ghcr.io
